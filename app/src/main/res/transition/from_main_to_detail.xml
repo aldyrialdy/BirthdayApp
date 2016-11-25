@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transitionSet xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <changeBounds android:duration="500">
+
+        <targets>
+            <target android:targetId="@+id/turbine_image_view"/>
+            <target android:targetId="@+id/to_who_text_view"/>
+            <target android:targetId="@+id/from_who_text_view"/>
+        </targets>
+
+    </changeBounds>
+
+    <fade android:startDelay="550" android:duration="350">
+
+        <targets>
+            <target android:targetId="@+id/description_text_view"/>
+        </targets>
+
+    </fade>
+</transitionSet>
